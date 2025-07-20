@@ -1,9 +1,13 @@
 import Chai from "./chai"
 
 function App() {
+  const username = 'sadek'
   return (
-    // <h1>Hello world</h1>
+    <>
     <Chai />
+    <h1>Hello {username}</h1>
+    <p>test para</p>
+    </>
   )
 }
 export default App
